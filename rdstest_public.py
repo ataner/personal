@@ -110,10 +110,7 @@ def connect_to_instance():
         print(endpoint)
         print(instance_arn)
         
-    #response = client.execute_sql(
-    #database=db_name,
-    #dbClusterOrInstanceArn=instance_arn,
-    #sqlStatements='select * from test_table'
+# Do all the things
     
 check_old_instance()
 rename_db()
