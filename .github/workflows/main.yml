@@ -26,5 +26,5 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo "Type a word:",
-        read word,
+        read $word,
         echo $word
